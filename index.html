@@ -3,10 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<script src="assets/lib/jquery-3.7.1.min.js"></script>
         <div class="calculator">
-            <input type="text">
+            <div class="top">
+                <input type="text" placeholder="0" id="input-box">
+            </div>
+            <div>
+                <button class="num-pad operator">C</button>
+                <button class="num-pad operator">Del</button>
+                <button class="num-pad operator">%</button>
+                <button class="num-pad operator">+</button>
+            </div>
+            <div>
+                <button class="num-pad">7</button>
+                <button class="num-pad">8</button>
+                <button class="num-pad">9</button>
+                <button class="num-pad operator">-</button>
+
+            </div>
+            <div>
+                <button class="num-pad">4</button>
+                <button class="num-pad">5</button>
+                <button class="num-pad">6</button>
+                <button class="num-pad operator">/</button>
+
+            </div>
+            <div>
+                <button class="num-pad">1</button>
+                <button class="num-pad">2</button>
+                <button class="num-pad">3</button>
+                <button class="num-pad operator">x</button>
+            </div>
+            <div>
+                <button class="num-pad">0</button>
+                <button class="num-pad">.</button>
+                <button class="num-pad equalBtn">=</button>
+            </div>
         </div>
+
+        <script src="script.js"></script>
 </body>
 </html>
